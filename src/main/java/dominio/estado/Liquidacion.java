@@ -1,9 +1,11 @@
 package dominio.estado;
 
-public class Liquidacion implements EstadoPrenda{
+import java.math.BigDecimal;
+
+public class Liquidacion implements EstadoPrenda {
 
 
-    public Double precioFinal(Double precioOriginal){
-        return precioOriginal/2;
+    public Double precioFinal(Double precioOriginal) {
+        return precioOriginal * 0.5;
     }
 }

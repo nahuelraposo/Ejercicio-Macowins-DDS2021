@@ -1,19 +1,19 @@
 package dominio;
 
-import java.util.Date;
+import java.time.LocalDate;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Macowins {
+public class Negocio {
     List<Venta> ventas;
 
-    public Double gananciasDeXDia(Date fecha){
+    public Double gananciasDeXDia(LocalDate fecha){
         return filtrarVentasDeUnDia(fecha).stream().
                 mapToDouble(venta -> venta.precioVenta()).
                 sum();
     }
 
-    public List <Venta> filtrarVentasDeUnDia(Date fecha){
+    public List <Venta> filtrarVentasDeUnDia(LocalDate fecha){
         return getVentas().stream().filter(venta -> venta.getFechaDeVenta() == fecha).collect(Collectors.toList());
     }
 

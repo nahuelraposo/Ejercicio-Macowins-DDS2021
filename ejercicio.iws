@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f287431-2a97-41fa-b53d-7b9433a31cc3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dominio/Macowins.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dominio/Prenda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dominio/TipoPrenda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dominio/Venta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dominio/VentaConTarjeta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dominio/estado/EstadoPrenda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dominio/estado/Liquidacion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dominio/estado/Nueva.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dominio/estado/Promocion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio.iws" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicio.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominio/Macowins.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominio/Negocio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominio/Prenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominio/Prenda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominio/Venta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominio/Venta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominio/VentaConTarjeta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominio/VentaConTarjeta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominio/estado/EstadoPrenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominio/estado/EstadoPrenda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominio/estado/Liquidacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominio/estado/Liquidacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominio/estado/Nueva.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominio/estado/Nueva.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominio/estado/Promocion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominio/estado/Promocion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -279,7 +279,7 @@
       <option name="VM_PARAMETERS" />
     </configuration>
     <configuration name="Macowins" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="dominio.Macowins" />
+      <option name="MAIN_CLASS_NAME" value="dominio.Negocio" />
       <module name="ejercicio" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -287,17 +287,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -356,7 +345,8 @@
       <workItem from="1618249325826" duration="22000" />
       <workItem from="1618249370480" duration="150000" />
       <workItem from="1618249569307" duration="427000" />
-      <workItem from="1618584901127" duration="3614000" />
+      <workItem from="1618584901127" duration="3944000" />
+      <workItem from="1618620999611" duration="2038000" />
     </task>
     <servers />
   </component>
